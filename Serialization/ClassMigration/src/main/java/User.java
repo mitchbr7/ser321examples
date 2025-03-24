@@ -16,7 +16,7 @@ import java.io.Serializable;
  */
 class User implements Serializable {
   // https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it
-  // private static final long serialVersionUID = 1L;
+   private static final long serialVersionUID = 1L;
 
   private String userId, userPwd;
   private int age;
