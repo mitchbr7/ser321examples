@@ -19,7 +19,7 @@ class User implements Serializable {
   // private static final long serialVersionUID = 1L;
 
   private String userId, userPwd;
-  //private int age;
+  private int age;
 
   public User(String id, String pwd) {
     userId = id;
